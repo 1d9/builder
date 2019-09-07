@@ -11,7 +11,7 @@ apk add wget make nodejs unzip git openssh
 
 # Make a root bin and add it to path
 mkdir -p bin
-PATH=$PATH:$HOME/bin
+PATH=$PATH:~/bin
 echo "PATH=\$PATH:~/bin" >> /etc/profile
 
 # Download Terraform
