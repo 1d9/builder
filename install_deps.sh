@@ -29,7 +29,7 @@ wget -O terraform-provider-aws-uncontrolled -q $terraform_stateless_url
 mkdir -p ~/.terraform.d/plugins
 cp terraform-provider-aws-uncontrolled ~/.terraform.d/plugins
 # Mark as executable
-chmod +x ~/.terraform.d/plugins/terraform-provider-aws-uncontrolled
+chmod 777 ~/.terraform.d/plugins/terraform-provider-aws-uncontrolled
 # Clean up
 rm -f terraform-provider-aws-uncontrolled
 
