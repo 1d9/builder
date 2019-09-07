@@ -15,7 +15,7 @@ PATH=$PATH:~/bin
 echo "PATH=\$PATH:~/bin" >> /etc/profile
 
 # Download Terraform
-terraform_zip_url="https://releases.hashicorp.com/terraform/0.12.7/terraform_0.12.7_linux_amd64.zip"
+terraform_zip_url="https://releases.hashicorp.com/terraform/0.12.8/terraform_0.12.8_linux_amd64.zip"
 wget -O terraform.zip -q $terraform_zip_url
 # Put terraform inside our local bin
 unzip terraform.zip -d ~/bin
