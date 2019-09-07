@@ -4,8 +4,6 @@
 # http://linuxcommand.sourceforge.net/lc3_man_pages/seth.html
 set -e
 
-#echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
-
 # Update our packge repo
 apk update
 # Download some Alpine Packages
