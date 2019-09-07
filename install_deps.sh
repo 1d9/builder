@@ -25,6 +25,8 @@ rm -f terraform.zip
 # Download terraform-aws-elastic-beanstalk-stateless-versions
 terraform_stateless_url="https://github.com/lukekaalim/terraform-aws-elastic-beanstalk-stateless-versions/releases/download/v1.0.1/terraform-provider-aws-uncontrolled"
 wget -O terraform-provider-aws-uncontrolled -q $terraform_stateless_url
+# Mark as executable
+chmod +x terraform-provider-aws-uncontrolled
 # Put the plugin inside the terraform global plugins folder
 mkdir -p ~/.terraform.d/plugins
 cp terraform-provider-aws-uncontrolled ~/.terraform.d/plugins
