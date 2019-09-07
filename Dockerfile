@@ -8,4 +8,4 @@ WORKDIR /root
 COPY install_deps.sh ./
 RUN ./install_deps.sh
 
-CMD ["/bin/sh"]
+CMD ["/bin/sh", "--login"]
