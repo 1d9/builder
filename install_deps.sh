@@ -7,7 +7,7 @@ set -e
 # Update our packge repo
 apk update
 # Download some Alpine Packages
-apk add wget make nodejs zip unzip git openssh
+apk add wget make nodejs zip unzip git openssh jq
 
 # Make a root bin and add it to path
 mkdir -p bin
